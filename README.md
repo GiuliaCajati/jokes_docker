@@ -1,1 +1,7 @@
 # jokes_docker
+1. To build docker image run 
+* docker build -t jokes . 
+
+2. To run docker image run 
+
+* docker run -e LOCATION="DC" --rm -it jokes --type programming   
