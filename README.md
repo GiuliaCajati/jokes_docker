@@ -4,5 +4,6 @@
 
 2. To run docker image run 
 
-* docker run -e LOCATION="DC" --rm jokes --type programming   
+* docker run -e LOCATION='DC' --rm jokes --type programming   
+    * location option: 'DC', 'NY', 'LA', 'other'
     * type options: general & programming

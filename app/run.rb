@@ -10,7 +10,7 @@ parser = OptionParser.new
 
 parser.on('-t', '--type=programming') do |type|
     make_joke = JokeGenerator.new
-    make_joke.new_jokes(type)
+    make_joke.new_jokes(location, type)
 end 
 
 parser.parse!
